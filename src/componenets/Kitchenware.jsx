@@ -62,7 +62,6 @@ const Kitchenware = () => {
             }
           />
 
-          {/* Scrollable images */}
           <div
             id="kitchenwareScroll"
             ref={scrollRef}
@@ -118,7 +117,6 @@ const Kitchenware = () => {
           />
         </div>
 
-        {/* lines below */}
         <div
           className="d-flex justify-content-center gap-3 mt-4"
           style={{ alignItems: "center" }}

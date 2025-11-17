@@ -12,12 +12,10 @@ function Navbar() {
   return (
     <div className="navbar-container shadow-sm">
       <div className="container d-flex align-items-center justify-content-between py-3 gap-15">
-        {/* Logo */}
         <div className="d-flex align-items-center">
           <img src={logo} alt="Logo" className="nav-logo me-2" />
         </div>
 
-        {/* Search bar */}
         <div className="search-bar d-flex align-items-center px-3">
           <img
             src={searchIcon}
@@ -38,7 +36,6 @@ function Navbar() {
           />
         </div>
 
-        {/* Icons + Language + Button */}
         <div className="d-flex align-items-center gap-3">
           <img src={userIcon} alt="User" className="icon-style" />
           <img src={heartIcon} alt="Wishlist" className="icon-style" />
@@ -56,7 +53,6 @@ function Navbar() {
         </div>
       </div>
 
-      {/* Lower Navbar Menu */}
       <div className="menu-bar py-2">
         <ul className="menu-items">
           <li>Kitchenware</li>

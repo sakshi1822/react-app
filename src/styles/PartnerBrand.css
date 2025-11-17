@@ -1,37 +1,7 @@
-/* .video-img {
-  width: 80%;
-  max-width: 800px;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
-
-.left-arr {
-  position: absolute;
-  left: 90px;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 10;
-  cursor: pointer;
-  width: 40px;
-  height: 50px;
-}
-
-.right-arr {
-  position: absolute;
-  right: 90px;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 10;
-  cursor: pointer;
-  width: 40px;
-  height: 50px;
-}
-
 .min-w-300px {
-  width: 90%; 
-  max-width: 360px; 
-  height: auto; 
+  width: 90%;
+  max-width: 360px;
+  height: auto;
   margin: 0 auto;
   border-radius: 40px;
   background: linear-gradient(to bottom, #fefbfbed 50%, #e4d1d1ff 50%);
@@ -55,12 +25,7 @@
   background: linear-gradient(to bottom, #fefbfbed 50%, #e1ccccff 50%);
   flex-shrink: 0;
 }
- */
-
-/* PartnerBrand.css - Complete Responsive Styles */
-
-/* Section Styles */
-.partner-brand-section {
+*/ .partner-brand-section {
   padding: 3rem 0;
   background: linear-gradient(to bottom, #faf7f7ff 50%, #f7faef 50%);
   width: 100%;
@@ -96,7 +61,6 @@
   width: 100%;
 }
 
-/* Scroll Track */
 .partner-brand-scroll-track {
   display: flex;
   gap: 1rem;
@@ -106,10 +70,6 @@
   padding: 0 0.5rem;
   scrollbar-width: none;
   -ms-overflow-style: none;
-}
-
-.partner-brand-scroll-track::-webkit-scrollbar {
-  display: none;
 }
 
 /* Card Styles */
@@ -127,7 +87,6 @@
   justify-content: space-between;
 }
 
-/* Video Container */
 .partner-brand-video-container {
   width: 100%;
   height: 340px;

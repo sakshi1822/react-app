@@ -13,9 +13,9 @@
   align-items: center;
   gap: 8px;
 
-  background-color: #d7dfca; /* solid background */
-  color: #6da41d; /* white text */
-  border: none; /* remove border */
+  background-color: #d7dfca;
+  color: #6da41d;
+  border: none;
 
   padding: 10px 16px;
   font-weight: 600;
@@ -38,5 +38,5 @@
 }
 
 .view-btn:hover .btn-arrow {
-  filter: brightness(0) invert(1); /* makes arrow white on hover */
+  filter: brightness(0) invert(1);
 }

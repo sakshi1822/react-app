@@ -1,6 +1,6 @@
 import "./App.css";
 import Customer from "./componenets/Customer.jsx";
-import HeroSection from "./componenets/Hero.jsx";
+import Hero from "./componenets/Hero.jsx";
 import KitchenwareSection from "./componenets/KitchenSection.jsx";
 import Kitchenware from "./componenets/Kitchenware.jsx";
 import Navbar from "./componenets/Navbar.jsx";
@@ -15,7 +15,7 @@ function App() {
     <div>
       <TopBar />
       <Navbar />
-      <HeroSection />
+      <Hero />
       <Kitchenware />
       <KitchenwareSection />
       <ProductCategories />
