@@ -1,0 +1,148 @@
+.footer-links-section {
+  background-color: #dbdcd8 !important;
+}
+
+.my-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Footer Columns */
+.footer-links-section h6 {
+  font-size: 1.125rem;
+  color: #111111;
+}
+
+.footer-links-section ul li {
+  font-size: 0.875rem;
+  color: #666;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  padding: 2px 0;
+}
+
+.footer-links-section ul li:hover {
+  color: #8bc34a;
+}
+
+.footer-links-section .d-flex.gap-3 img {
+  transition: transform 0.3s ease;
+}
+
+.footer-links-section .d-flex.gap-3 img:hover {
+  transform: scale(1.1);
+}
+
+.footer-links-section span {
+  font-size: 0.875rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+.footer-bottom {
+  background-color: #393737 !important;
+}
+
+.footer-bottom p {
+  font-size: 0.875rem;
+  color: #fff;
+  margin: 0;
+}
+
+.footer-bottom .d-flex.gap-3 i {
+  font-size: 1.25rem;
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.footer-bottom .d-flex.gap-3 i:hover {
+  color: #8bc34a;
+}
+
+@media (max-width: 1024px) {
+  .footer-links-section {
+    padding: 3rem 0 !important;
+  }
+
+  .footer-links-section h6 {
+    font-size: 1.0625rem;
+  }
+
+  .footer-links-section ul li {
+    font-size: 0.8125rem;
+  }
+
+  .footer-links-section span {
+    font-size: 0.8125rem;
+  }
+
+  .footer-bottom {
+    padding: 0.75rem 0 !important;
+  }
+
+  .footer-bottom p {
+    font-size: 0.8125rem;
+  }
+}
+
+/* Mobile (576px - 768px) */
+@media (max-width: 768px) {
+  .footer-links-section {
+    padding: 2.5rem 0 !important;
+  }
+
+  .footer-links-section .row.g-4 {
+    gap: 2rem !important;
+  }
+
+  .footer-links-section h6 {
+    font-size: 1rem;
+    margin-bottom: 1rem !important;
+    text-align: center;
+  }
+
+  .footer-links-section ul {
+    text-align: center;
+  }
+
+  .footer-links-section ul li {
+    font-size: 0.875rem;
+    padding: 4px 0;
+  }
+
+  .footer-links-section .col-12.col-md-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-links-section .d-flex.gap-3 {
+    justify-content: center;
+    margin-bottom: 1rem !important;
+  }
+
+  .footer-links-section span {
+    font-size: 0.875rem;
+    text-align: center;
+  }
+
+  .footer-bottom {
+    padding: 1rem 0 !important;
+  }
+
+  .footer-bottom .row {
+    gap: 1rem;
+  }
+
+  .footer-bottom p {
+    font-size: 0.875rem;
+    text-align: center !important;
+  }
+
+  .footer-bottom .d-flex.gap-3 {
+    justify-content: center !important;
+  }
+}

@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Customer from "./componenets/Customer.jsx";
+import HeroSection from "./componenets/Hero.jsx";
+import KitchenwareSection from "./componenets/KitchenSection.jsx";
+import Kitchenware from "./componenets/Kitchenware.jsx";
+import Navbar from "./componenets/Navbar.jsx";
+import PartnerBrand from "./componenets/PartnerBrand.jsx";
+import ProductCategories from "./componenets/ProductCategories.jsx";
+import TopBar from "./componenets/TopBar.jsx";
+import Footer from "./componenets/Footer.jsx";
+import FooterLinks from "./componenets/FooterLinks.jsx";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <TopBar />
+      <Navbar />
+      <HeroSection />
+      <Kitchenware />
+      <KitchenwareSection />
+      <ProductCategories />
+      <PartnerBrand />
+      <Customer />
+      <Footer />
+      <FooterLinks />
     </div>
   );
 }
