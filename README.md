@@ -1,4 +1,3 @@
-#react-spa
 React SPA Home Page
 
 A simple and responsive React Single Page Application (SPA) homepage built using JSX, CSS, and Bootstrap.
@@ -17,7 +16,3 @@ This project focuses on creating a clean UI layout, reusable components, and mob
 React
 css
 Bootstrap 5
-
-## 📸 Screenshot
-
-![Homepage Screenshot](./screenshots/homepage.png)
