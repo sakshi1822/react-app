@@ -25,7 +25,7 @@
   background: linear-gradient(to bottom, #fefbfbed 50%, #e1ccccff 50%);
   flex-shrink: 0;
 }
-*/ .partner-brand-section {
+.partner-brand-section {
   padding: 3rem 0;
   background: linear-gradient(to bottom, #faf7f7ff 50%, #f7faef 50%);
   width: 100%;
